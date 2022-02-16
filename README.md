@@ -74,7 +74,7 @@ Un DockerFile es un documento de texto que contiene todos los comandos que quera
 12. ¿Qué relación hay entre un Dockerfile, una imagen de docker y un contenedor de docker?
 una imagen es una captura del contenedor en un momento dado y el dockerfile es un archivo de configuración que se utiliza para crear imágenes.
 13. ¿Qué ventajas ofrece Docker para el **desarrollo** local de aplicaciones?
-muy evidente: es posible encapsular todo el entorno de trabajo, de manera que los desarrolladores pueden estar trabajando en su servidor local con la seguridad de que, al llegar el momento de poner la aplicación en producción, se va a ejecutar con la misma configuración sobre la que se han hecho todas las pruebas.
+14. muy evidente: es posible encapsular todo el entorno de trabajo, de manera que los desarrolladores pueden estar trabajando en su servidor local con la seguridad de que, al llegar el momento de poner la aplicación en producción, se va a ejecutar con la misma configuración sobre la que se han hecho todas las pruebas.
 Su ligereza: al no virtualizar un sistema completo el consumo de recursos es mínimo, ahorrando alrededor de un 80% de dichos recursos—, la portabilidad y su autosuficiencia, pues Docker se encarga de la gestión del contenedor y de las aplicaciones que contenga.
 
 ###### tags: `dpl` `ut5` `contenedores` `docker` `conceptos`
